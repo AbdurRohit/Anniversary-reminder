@@ -3,18 +3,18 @@ import React, { useState } from 'react';
 import styles from './NewRecordForm.module.scss';
 
 const NewRecordForm = () => {
-
+  function handleSave(){
+    return 0
+  }
   return (
     <div className={styles.container}>
       <form className={styles.form}>
         <input
           type="text"
-          onChange={handleNameChange}
           placeholder="Name of the special person"
         />
         <input
           type="date"
-          onChange={handleDateChange}
           placeholder="Date of Birth/Anniversary"
         />
         <button type="button" onClick={handleSave}>
