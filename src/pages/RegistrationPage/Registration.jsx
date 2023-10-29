@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import css from "../LoginPage/Login.module.scss";
 import RegistrationForm from "../../componets/RegistrationForm/RegistrationForm";
+
 const Registration = () => {
   return (
     <section className={css.sectionLogin}>
@@ -10,7 +11,7 @@ const Registration = () => {
         <br />
         <hr />
         <p>
-          Есть аккаунт ! <Link to="/login">Log In</Link>
+          Already have an account ! <Link to="/login">Log In</Link>
         </p>
       </div>
 

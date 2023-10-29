@@ -12,12 +12,12 @@ const LoginForm = () => {
         Password
         <input type="password" required />
       </label>
-      {/* <button className={css.btn} type="submit">
+      <button className={css.btn} type="submit">
         login
-      </button> */}
-      <Link className={css.btn} to="/main">
+      </button>
+      {/* <Link className={css.btn} to="/main">
         login
-      </Link>
+      </Link> */}
     </form>
   );
 };
