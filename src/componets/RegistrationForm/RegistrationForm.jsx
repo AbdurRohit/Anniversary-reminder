@@ -6,7 +6,7 @@ const RegistrationForm = () => {
   return (
     <form className={css.formLogin}>
       <label className={css.titleInputForm}>
-        Login
+        Username
         <input name="login" type="text" required />
       </label>
       <label className={css.titleInputForm}>

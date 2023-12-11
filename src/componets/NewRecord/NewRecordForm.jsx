@@ -31,7 +31,7 @@ const NewRecordForm = () => {
           </tr>
         </thead>
         <tbody>
-          {specialPeople.map((person, index) => (
+          {/* {specialPeople.map((person, index) => (
             <tr key={index}>
               <td>{person.name}</td>
               <td>{person.date}</td>
@@ -39,7 +39,7 @@ const NewRecordForm = () => {
                 <button>Edit</button>
               </td>
             </tr>
-          ))}
+          ))} */}
         </tbody>
       </table>
     </div>
